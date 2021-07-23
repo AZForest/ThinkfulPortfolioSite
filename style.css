@@ -1,0 +1,95 @@
+/* Imported fonts from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Yomogi&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+header {
+    background-color: #1e522c;
+    height: 150px;
+}
+
+header h1, header h2 {
+    text-align: center;
+    color: #d5e6da;
+}
+
+header h1 {
+    font-family: "Yomogi", sans-serif;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+header h2 {
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+main {
+    background-color: #d5e6da;
+    padding: 10px 0;
+}
+
+/* Article class that is used for all 3 articles */
+.format-article {
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border-bottom: 1px grey solid;
+}
+
+.format-article h2, .format-article p {
+    margin: 20px;
+}
+
+.format-article p {
+    font-size: 18px;
+}
+
+.format-article h2 {
+    text-align: center;
+    font-family: "Yomogi", sans-serif;
+    font-size: 34px;
+}
+
+.format-article ul, .format-article ol {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.format-article div {
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.format-article div img {
+    border-radius: 10px;
+}
+
+/* color that has updated contrast: #8A1921*/
+/* Change scolor of link depending on state */
+.format-article a:link {color: #8A1921;}
+.format-article a:visited {color: #8A1921;}
+.format-article a:hover {color: #65101A;}
+.format-article a:active {color: #65101A;}
+
+footer {
+    background-color: #1e522c;
+    text-align: center;
+    color: #d5e6da;
+    font-family: "Yomogi", sans-serif;
+    height: 80px;
+    font-size: 20px;
+}
+
+footer h3 {
+    padding-top: 20px;
+    font-size: 18px;
+}
